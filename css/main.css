@@ -1,0 +1,44 @@
+/*
+
+body color = #1d293a
+batton color =#354357 
+writing color =#edf0f3
+
+*/
+
+body {
+	background-color: #1d293a;
+	color: #edf0f3;
+	font-family: sans-serif;
+}
+
+.button {
+	background-color: #354357;
+	text-align: center;
+	padding: 1em;
+}
+
+.bold {
+	font-weight: 900;
+}
+
+.thin {
+	font-weight: 100;
+}
+
+#calculator {
+	font-size: 24px;
+}
+
+#screen {
+	font-size: 36px;
+	text-align: right;
+}
+
+ul {
+	list-style-type: none;
+}
+
+#history {
+	text-align: center;
+}

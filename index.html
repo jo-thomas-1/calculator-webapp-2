@@ -3,49 +3,53 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Calculator</title>
+
+		<link rel="stylesheet" type="text/css" href="css/main.css">
 	</head>
 	<body>
 		<div id="calculator_app">
-			<table border="1">
+			<table id="calculator" cellspacing="10">
 				<tr>
-					<td colspan="4">16.7</td>
+					<td colspan="4" id="screen">16.7</td>
 				</tr>
 				<tr>
-					<td>AC</td>
-					<td>B</td>
-					<td>%</td>
-					<td>/</td>
+					<td class="button thin">AC</td>
+					<td class="button">B</td>
+					<td class="button">%</td>
+					<td class="button">/</td>
 				</tr>
 				<tr>
-					<td>7</td>
-					<td>8</td>
-					<td>9</td>
-					<td>x</td>
+					<td class="button bold">7</td>
+					<td class="button bold">8</td>
+					<td class="button bold">9</td>
+					<td class="button">x</td>
 				</tr>
 				<tr>
-					<td>4</td>
-					<td>5</td>
-					<td>6</td>
-					<td>-</td>
+					<td class="button bold">4</td>
+					<td class="button bold">5</td>
+					<td class="button bold">6</td>
+					<td class="button">-</td>
 				</tr>
 				<tr>
-					<td>1</td>
-					<td>2</td>
-					<td>3</td>
-					<td>+</td>
+					<td class="button bold">1</td>
+					<td class="button bold">2</td>
+					<td class="button bold">3</td>
+					<td class="button">+</td>
 				</tr>
 				<tr>
-					<td colspan="2" >0</td>
-					<td>.</td>
-					<td>=</td>
+					<td colspan="2" class="button">0</td>
+					<td class="button bold">.</td>
+					<td class="button">=</td>
 				</tr>
 			</table>
-			<p>Recent Calculations</p>
-			<p>
-				92.2* 4=368.8<br>
-				17*5=85<br>
-				685*34=23,290<br>
-			</p>
+			<div id="history">
+				<p>Recent Calculations</p>
+				<ul>
+					<li>92.2* 4=368.8</li>
+					<li>17*5=85</li>
+					<li>685*34=23,290</li>
+				</ul>
+			</div>
 		</div>
 	</body>
 </html>
