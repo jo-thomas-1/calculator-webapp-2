@@ -3,6 +3,7 @@
 body color = #1d293a
 batton color =#354357 
 writing color =#edf0f3
+button hover = #6c63ff
 
 */
 
@@ -16,6 +17,11 @@ body {
 	background-color: #354357;
 	text-align: center;
 	padding: 1em;
+	cursor: pointer;
+}
+
+.button:hover {
+	background-color: #6c63ff;
 }
 
 .bold {
@@ -24,6 +30,12 @@ body {
 
 .thin {
 	font-weight: 100;
+}
+
+#calculator_app {
+	width: fit-content;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #calculator {
@@ -41,4 +53,12 @@ ul {
 
 #history {
 	text-align: center;
+}
+
+ul {
+	padding: 0px;
+}
+
+li {
+	padding: 4px;
 }
